@@ -4,94 +4,88 @@
     <meta charset="UTF-8">
     <title>Resource Center | The Ross Experience 24</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>body { background-color: #000000; color: #ffffff; font-family: sans-serif; }</style>
+    <style>
+        body { background-color: #000000; color: #ffffff; font-family: sans-serif; }
+    </style>
 </head>
 <body class="py-12 px-6">
-    <nav class="max-w-5xl mx-auto mb-12">
+    
+    <nav class="max-w-4xl mx-auto mb-12">
         <a href="index.html" class="text-neutral-500 hover:text-white transition">&larr; Back to Home</a>
     </nav>
 
-    <main class="max-w-5xl mx-auto space-y-16">
-        <div>
-            <h1 class="text-4xl font-bold mb-6">Resource Center</h1>
-            <p class="text-neutral-400 max-w-2xl leading-relaxed">The Ross Experience 24 Resource Center is designed to support student-athletes, parents, coaches, and community partners with practical tools for success.</p>
+    <main class="max-w-4xl mx-auto space-y-20">
+        <!-- Hero Section -->
+        <section class="text-center py-10">
+            <h1 class="text-5xl font-bold mb-4">Resources for Student-Athlete Success</h1>
+            <p class="text-xl text-blue-400 italic mb-8">Building More Than Athletes. Developing Leaders.</p>
+            <a href="https://forms.google.com" class="inline-block bg-blue-600 px-8 py-4 rounded-full font-bold hover:bg-blue-500 transition shadow-[0_0_20px_rgba(37,99,235,0.5)]">
+                Complete Intake Form
+            </a>
+        </section>
+
+        <!-- Content Sections -->
+        <div class="space-y-12">
+            <section>
+                <h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 mb-6">Academic Success Tools</h2>
+                <div class="grid md:grid-cols-2 gap-4 text-neutral-400 text-sm bg-neutral-900 p-6 rounded-xl border border-neutral-800">
+                    <p><strong>Resources:</strong> Khan Academy, College Board BigFuture, ACT, Quizlet, Grammarly</p>
+                    <p><strong>Ross Tools:</strong> Weekly planner, GPA & Assignment trackers, Study schedule, Goal-setting worksheet</p>
+                </div>
+            </section>
+            <section>
+                <h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 mb-6">Athletic Development Tools</h2>
+                <div class="grid md:grid-cols-2 gap-4 text-neutral-400 text-sm bg-neutral-900 p-6 rounded-xl border border-neutral-800">
+                    <p><strong>Resources:</strong> Positive Coaching Alliance, NSCA, USA Basketball, Volleyball, Football, Soccer</p>
+                    <p><strong>Ross Tools:</strong> Practice log, Workout tracker, Nutrition journal, Recovery log, Leadership journal</p>
+                </div>
+            </section>
+            <section>
+                <h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 mb-6">Recruiting & College Readiness</h2>
+                <div class="grid md:grid-cols-2 gap-4 text-neutral-400 text-sm bg-neutral-900 p-6 rounded-xl border border-neutral-800">
+                    <p><strong>Resources:</strong> NCAA/NAIA/NJCAA Eligibility Centers, Honest Game</p>
+                    <p><strong>Ross Tools:</strong> Recruiting timeline, Coach contact tracker, Athlete resume template, Visit checklists</p>
+                </div>
+            </section>
+            <section>
+                <h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 mb-6">Financial Literacy & NIL Education</h2>
+                <div class="grid md:grid-cols-2 gap-4 text-neutral-400 text-sm bg-neutral-900 p-6 rounded-xl border border-neutral-800">
+                    <p><strong>Resources:</strong> Next Gen Personal Finance, Practical Money Skills, MyMoney.gov, NCAA NIL Resources</p>
+                    <p><strong>Ross Tools:</strong> Monthly budget sheet, Savings & Scholarship trackers, NIL brand planner</p>
+                </div>
+            </section>
+            <section>
+                <h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 mb-6">Leadership & Life Skills</h2>
+                <div class="grid md:grid-cols-2 gap-4 text-neutral-400 text-sm bg-neutral-900 p-6 rounded-xl border border-neutral-800">
+                    <p><strong>Resources:</strong> Leader in Me, John Maxwell Foundation, Toastmasters, MindTools, YouTube EDU</p>
+                    <p><strong>Ross Tools:</strong> Leadership journal, Volunteer log, Communication checklist, Vision board</p>
+                </div>
+            </section>
+            <section>
+                <h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 mb-6">Parent & Coach Support</h2>
+                <div class="grid md:grid-cols-2 gap-4 text-neutral-400 text-sm bg-neutral-900 p-6 rounded-xl border border-neutral-800">
+                    <p><strong>Resources:</strong> NFHS Learning Center, Positive Coaching Alliance, NAYS, NCAA Parent Resources</p>
+                    <p><strong>Ross Tools:</strong> Parent checklist, Coach communication guide, Family recruiting checklist, Eligibility overview</p>
+                </div>
+            </section>
         </div>
 
-        <!-- Academic -->
-        <section>
-            <h2 class="text-2xl font-bold mb-6 border-l-4 border-blue-600 pl-4">Academic Success Coaching</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
-                    <h4 class="text-blue-400 font-bold mb-4">Recommended Resources</h4>
-                    <ul class="text-sm space-y-1 text-neutral-300">
-                        <li>• Khan Academy</li><li>• College Board BigFuture</li><li>• ACT Resources</li><li>• Quizlet</li><li>• Grammarly</li>
-                    </ul>
-                </div>
-                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
-                    <h4 class="text-emerald-400 font-bold mb-4">Ross Exp 24 Tools</h4>
-                    <ul class="text-sm space-y-1 text-neutral-300">
-                        <li>✓ Weekly planner, GPA & Assignment trackers</li><li>✓ Study schedule & Goal-setting</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Athletic -->
-        <section>
-            <h2 class="text-2xl font-bold mb-6 border-l-4 border-blue-600 pl-4">Athletic Development</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
-                    <h4 class="text-blue-400 font-bold mb-4">Recommended Resources</h4>
-                    <ul class="text-sm space-y-1 text-neutral-300">
-                        <li>• Positive Coaching Alliance</li><li>• NSCA</li><li>• USA Basketball, Volleyball, Football</li><li>• United Soccer Coaches</li>
-                    </ul>
-                </div>
-                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
-                    <h4 class="text-emerald-400 font-bold mb-4">Ross Exp 24 Tools</h4>
-                    <ul class="text-sm space-y-1 text-neutral-300">
-                        <li>✓ Practice, Workout & Recovery logs</li><li>✓ Nutrition journal & Leadership journal</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Recruiting -->
-        <section>
-            <h2 class="text-2xl font-bold mb-6 border-l-4 border-blue-600 pl-4">College & Recruiting Readiness</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
-                    <h4 class="text-blue-400 font-bold mb-4">Recommended Resources</h4>
-                    <ul class="text-sm space-y-1 text-neutral-300">
-                        <li>• NCAA/NAIA/NJCAA Eligibility Centers</li><li>• Honest Game</li>
-                    </ul>
-                </div>
-                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
-                    <h4 class="text-emerald-400 font-bold mb-4">Ross Exp 24 Tools</h4>
-                    <ul class="text-sm space-y-1 text-neutral-300">
-                        <li>✓ Recruiting timeline, Coach contact tracker</li><li>✓ Resume template & Visit checklists</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Financial/NIL -->
-        <section>
-            <h2 class="text-2xl font-bold mb-6 border-l-4 border-blue-600 pl-4">Financial Literacy & NIL</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
-                    <h4 class="text-blue-400 font-bold mb-4">Recommended Resources</h4>
-                    <ul class="text-sm space-y-1 text-neutral-300">
-                        <li>• Next Gen Personal Finance</li><li>• Practical Money Skills</li><li>• NCAA NIL Resources</li>
-                    </ul>
-                </div>
-                <div class="bg-neutral-900 p-6 rounded-xl border border-neutral-800">
-                    <h4 class="text-emerald-400 font-bold mb-4">Ross Exp 24 Tools</h4>
-                    <ul class="text-sm space-y-1 text-neutral-300">
-                        <li>✓ Budget, Savings & Scholarship trackers</li><li>✓ NIL brand planner & worksheets</li>
-                    </ul>
-                </div>
+        <!-- Final Call to Action -->
+        <section class="bg-neutral-900 p-10 rounded-2xl text-center border border-neutral-800">
+            <h3 class="text-2xl font-bold mb-4">Ready to get started?</h3>
+            <p class="text-neutral-400 mb-8">Complete the Student-Athlete Interest & Intake Form or send us a DM on Instagram.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://forms.google.com" class="bg-blue-600 px-8 py-3 rounded-full font-bold hover:bg-blue-500 transition">Complete Intake Form</a>
+                <a href="https://instagram.com/therossexperience24" class="bg-neutral-800 px-8 py-3 rounded-full font-bold hover:bg-neutral-700 transition">DM on Instagram</a>
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="py-12 text-center border-t border-neutral-900 mt-20">
+        <p class="text-neutral-500 mb-2">Email: <a href="mailto:rossexp24@gmail.com" class="text-white hover:underline">rossexp24@gmail.com</a></p>
+        <p class="text-neutral-500">Instagram: <a href="https://instagram.com/therossexperience24" class="text-white hover:underline">@therossexperience24</a></p>
+    </footer>
+
 </body>
 </html>
