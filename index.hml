@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- This meta tag is the key to mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Level Baseball</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header { background: #333; color: #fff; padding: 1rem; text-align: center; }
+        .container { padding: 20px; max-width: 800px; margin: auto; }
+        
+        /* Grid layout for drills - switches to 1 column on small screens */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        
+        .card { border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
+        footer { text-align: center; padding: 20px; background: #f4f4f4; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pro Level Baseball</h1>
+</header>
+
+<div class="container">
+    <h2>Welcome to Elite Training</h2>
+    <p>Master your mechanics with our professional-grade drills.</p>
+    
+    <h3>Featured Drills</h3>
+    <div class="grid">
+        <div class="card">
+            <h4>Hitting Mechanics</h4>
+            <p>Perfect your swing path with these fundamental drills.</p>
+        </div>
+        <div class="card">
+            <h4>Pitching Velocity</h4>
+            <p>Unlock more power with our specialized arm-care program.</p>
+        </div>
+        <div class="card">
+            <h4>Fielding Basics</h4>
+            <p>Work on footwork and glove transitions.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Pro Level Baseball</p>
+</footer>
+
+</body>
+</html>
