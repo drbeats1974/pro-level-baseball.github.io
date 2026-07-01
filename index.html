@@ -7,60 +7,41 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
+        body { font-family: 'Inter', sans-serif; background-color: #000000; color: #ffffff; }
     </style>
 </head>
-<body class="bg-white text-slate-800">
+<body>
 
     <!-- Navigation -->
-    <nav class="sticky top-0 bg-white/90 backdrop-blur-md z-40 border-b border-slate-100 p-6 flex justify-between items-center">
+    <nav class="sticky top-0 bg-black/80 backdrop-blur-md z-40 border-b border-neutral-800 p-6 flex justify-between items-center">
         <h1 class="text-lg font-bold tracking-tight uppercase">The Ross Experience 24</h1>
-        <a href="#contact" class="text-sm font-semibold bg-slate-900 text-white px-5 py-2 rounded-full hover:bg-blue-600 transition">Contact</a>
+        <a href="#contact" class="text-sm font-semibold bg-white text-black px-5 py-2 rounded-full hover:bg-neutral-200 transition">Contact</a>
     </nav>
 
     <!-- Hero -->
-    <header class="py-20 px-6 text-center">
+    <header class="py-24 px-6 text-center">
         <h2 class="text-5xl md:text-6xl font-bold mb-6 tracking-tighter">Empowering Student-Athletes</h2>
-        <p class="text-xl text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p class="text-xl text-neutral-400 max-w-2xl mx-auto mb-10 leading-relaxed">
             The Ross Experience 24 helps athletes achieve excellence academically, athletically, and personally.
         </p>
-        <button onclick="document.getElementById('about-modal').classList.remove('hidden')" 
-                class="text-blue-600 font-bold hover:underline transition">
-            Learn About Nikki & Our Mission →
-        </button>
+        
+        <!-- Updated Schedule Button -->
+        <a href="mailto:rossexp24@gmail.com" 
+           class="inline-block bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-500 transition shadow-[0_0_20px_rgba(37,99,235,0.5)]">
+           Schedule a Consultation
+        </a>
     </header>
 
     <!-- Services Grid -->
-    <section class="py-20 px-6 bg-slate-50">
+    <section class="py-20 px-6 bg-neutral-900/30">
         <div class="max-w-6xl mx-auto">
             <h3 class="text-3xl font-bold mb-16 text-center">Programs & Services</h3>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Example Service Card -->
-                <div class="bg-white p-8 rounded-2xl border border-slate-100 hover:shadow-lg transition">
-                    <div class="bg-gray-200 h-32 w-full mb-6 rounded-lg"></div> <!-- Image Placeholder -->
-                    <h4 class="font-bold text-lg mb-2">Academic Success Coaching</h4>
-                    <p class="text-slate-600 text-sm">Study strategies, GPA tracking, and accountability.</p>
-                </div>
-                <div class="bg-white p-8 rounded-2xl border border-slate-100 hover:shadow-lg transition">
-                    <div class="bg-gray-200 h-32 w-full mb-6 rounded-lg"></div>
-                    <h4 class="font-bold text-lg mb-2">Recruiting & College Prep</h4>
-                    <p class="text-slate-600 text-sm">NCAA/NAIA eligibility, scholarships, and timelines.</p>
-                </div>
-                <div class="bg-white p-8 rounded-2xl border border-slate-100 hover:shadow-lg transition">
-                    <div class="bg-gray-200 h-32 w-full mb-6 rounded-lg"></div>
-                    <h4 class="font-bold text-lg mb-2">Athletic Development</h4>
-                    <p class="text-slate-600 text-sm">Sport-specific training, clinics, and assessments.</p>
-                </div>
-                <div class="bg-white p-8 rounded-2xl border border-slate-100 hover:shadow-lg transition">
-                    <div class="bg-gray-200 h-32 w-full mb-6 rounded-lg"></div>
-                    <h4 class="font-bold text-lg mb-2">Life Skills Workshops</h4>
-                    <p class="text-slate-600 text-sm">Leadership, financial literacy, and career readiness.</p>
-                </div>
-                <div class="bg-white p-8 rounded-2xl border border-slate-100 hover:shadow-lg transition">
-                    <div class="bg-gray-200 h-32 w-full mb-6 rounded-lg"></div>
-                    <h4 class="font-bold text-lg mb-2">NIL Education</h4>
-                    <p class="text-slate-600 text-sm">Understanding rules, personal branding, and partnerships.</p>
-                </div>
+                <div class="bg-neutral-900 p-8 rounded-2xl border border-neutral-800"><div class="bg-neutral-800 h-32 w-full mb-6 rounded-lg"></div><h4 class="font-bold text-lg mb-2">Academic Success Coaching</h4><p class="text-neutral-400 text-sm">Study strategies, GPA tracking, and accountability.</p></div>
+                <div class="bg-neutral-900 p-8 rounded-2xl border border-neutral-800"><div class="bg-neutral-800 h-32 w-full mb-6 rounded-lg"></div><h4 class="font-bold text-lg mb-2">Recruiting & College Prep</h4><p class="text-neutral-400 text-sm">NCAA/NAIA eligibility, scholarships, and timelines.</p></div>
+                <div class="bg-neutral-900 p-8 rounded-2xl border border-neutral-800"><div class="bg-neutral-800 h-32 w-full mb-6 rounded-lg"></div><h4 class="font-bold text-lg mb-2">Athletic Development</h4><p class="text-neutral-400 text-sm">Sport-specific training, clinics, and assessments.</p></div>
+                <div class="bg-neutral-900 p-8 rounded-2xl border border-neutral-800"><div class="bg-neutral-800 h-32 w-full mb-6 rounded-lg"></div><h4 class="font-bold text-lg mb-2">Life Skills Workshops</h4><p class="text-neutral-400 text-sm">Leadership, financial literacy, and career readiness.</p></div>
+                <div class="bg-neutral-900 p-8 rounded-2xl border border-neutral-800"><div class="bg-neutral-800 h-32 w-full mb-6 rounded-lg"></div><h4 class="font-bold text-lg mb-2">NIL Education</h4><p class="text-neutral-400 text-sm">Understanding rules, personal branding, and partnerships.</p></div>
             </div>
         </div>
     </section>
@@ -69,47 +50,18 @@
     <section class="py-20 px-6 max-w-4xl mx-auto text-center">
         <h3 class="text-3xl font-bold mb-12">Partner With Us</h3>
         <div class="grid md:grid-cols-3 gap-8">
-            <div class="p-6">
-                <h4 class="font-bold mb-2">Schools & Coaches</h4>
-                <p class="text-sm text-slate-500">Collaborate to bring academic and leadership resources to your teams.</p>
-            </div>
-            <div class="p-6">
-                <h4 class="font-bold mb-2">Parents</h4>
-                <p class="text-sm text-slate-500">Give your student-athlete the structure and mentorship they deserve.</p>
-            </div>
-            <div class="p-6">
-                <h4 class="font-bold mb-2">Community</h4>
-                <p class="text-sm text-slate-500">Support our mission by sponsoring events or scholarships.</p>
-            </div>
+            <div class="p-6"><h4 class="font-bold mb-2">Schools & Coaches</h4><p class="text-sm text-neutral-500">Collaborate to bring academic and leadership resources to your teams.</p></div>
+            <div class="p-6"><h4 class="font-bold mb-2">Parents</h4><p class="text-sm text-neutral-500">Give your student-athlete the structure and mentorship they deserve.</p></div>
+            <div class="p-6"><h4 class="font-bold mb-2">Community</h4><p class="text-sm text-neutral-500">Support our mission by sponsoring events or scholarships.</p></div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer id="contact" class="py-20 px-6 bg-slate-900 text-white text-center">
+    <footer id="contact" class="py-20 px-6 border-t border-neutral-900 text-center">
         <h3 class="text-2xl font-bold mb-6">Let's Connect</h3>
-        <a href="mailto:rossexp24@gmail.com" class="text-xl md:text-2xl font-light hover:text-blue-400 underline">rossexp24@gmail.com</a>
-        <p class="mt-8 text-slate-400">Tallahassee, Florida</p>
+        <a href="mailto:rossexp24@gmail.com" class="block text-2xl font-light hover:text-blue-400 mb-8 underline underline-offset-8">rossexp24@gmail.com</a>
+        <p class="text-neutral-500 text-sm">Tallahassee, Florida</p>
     </footer>
-
-    <!-- About Modal (Pop-out) -->
-    <div id="about-modal" class="hidden fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-6">
-        <div class="bg-white rounded-2xl p-8 max-w-lg w-full shadow-2xl relative">
-            <button onclick="document.getElementById('about-modal').classList.add('hidden')" 
-                    class="absolute top-4 right-4 text-slate-400 hover:text-black text-2xl">&times;</button>
-            <h2 class="text-2xl font-bold mb-4">About Nikki Ross</h2>
-            <p class="text-slate-600 mb-6">
-                Tallahassee native, FSUS graduate, and advocate for student success. With over 22 years in higher education, I know firsthand the demands of balancing academics and athletics.
-            </p>
-            <h3 class="font-bold mb-3">Core Values:</h3>
-            <div class="flex flex-wrap gap-2">
-                <span class="bg-slate-100 px-3 py-1 rounded text-sm">Commitment</span>
-                <span class="bg-slate-100 px-3 py-1 rounded text-sm">Integrity</span>
-                <span class="bg-slate-100 px-3 py-1 rounded text-sm">Leadership</span>
-                <span class="bg-slate-100 px-3 py-1 rounded text-sm">Growth</span>
-                <span class="bg-slate-100 px-3 py-1 rounded-full text-sm">Community</span>
-            </div>
-        </div>
-    </div>
 
 </body>
 </html>
