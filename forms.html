@@ -1,87 +1,104 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intake Forms Center | The Ross Experience 24</title>
-    <!-- REMEDIED TAILWIND STYLING ENGINE ENGINE -->
-    <script src="https://tailwindcss.com"></script>
-    <!-- REMEDIED TYPEFACE PARSING LINK -->
+    <title>Forms</title>
+
     <style>
-        @import url('https://googleapis.com');
-        body { font-family: 'Inter', sans-serif; background-color: #000000; color: #ffffff; }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .form-card h2 {
+            margin-top: 0;
+        }
+
+        .form-button {
+            display: inline-block;
+            background: #1a73e8;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .form-button:hover {
+            background: #0c5dc0;
+        }
     </style>
 </head>
-<body class="bg-black text-white min-h-screen">
 
-    <!-- Navigation Header Bar -->
-    <nav class="sticky top-0 bg-black/80 backdrop-blur-md z-40 border-b border-neutral-800 p-6 flex justify-between items-center">
-        <h1 class="text-lg font-bold tracking-tight uppercase text-white">The Ross Experience 24</h1>
-        <a href="index.html" class="text-sm font-semibold bg-neutral-800 text-white px-5 py-2 rounded-full hover:bg-neutral-700 transition">← Back to Home</a>
-    </nav>
+<body>
 
-    <!-- Main Content Header -->
-    <header class="py-16 px-6 text-center">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tighter text-white">Student-Athlete Intake Forms Center</h2>
-        <p class="text-lg text-neutral-400 max-w-2xl mx-auto leading-relaxed">
-            Please complete all 5 required documentation steps below. Each link targets your specific live tracking dashboard in a safe, standalone browser tab.
-        </p>
-    </header>
+<div class="container">
 
-    <!-- Interactive Link Card Layout Grid -->
-    <section class="pb-24 px-6">
-        <div class="max-w-4xl mx-auto grid gap-4 sm:grid-cols-2 lg:grid-cols-3 text-left">
-            
-            <!-- Step 1 Card: Application -->
-            <a href="https://google.com" target="_blank" class="block bg-neutral-900 border border-neutral-800 p-5 rounded-xl hover:border-blue-500 transition group">
-                <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-1">Step 1 of 5</div>
-                <h4 class="font-bold text-white group-hover:text-blue-400 transition mb-2">Student-Athlete Application</h4>
-                <p class="text-xs text-neutral-500">Basic contact data, academic stats, and athletic milestones.</p>
-            </a>
+    <h1>Required Forms</h1>
 
-            <!-- Step 2 Card: Consent -->
-            <a href="https://google.com" target="_blank" class="block bg-neutral-900 border border-neutral-800 p-5 rounded-xl hover:border-blue-500 transition group">
-                <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-1">Step 2 of 5</div>
-                <h4 class="font-bold text-white group-hover:text-blue-400 transition mb-2">Parent/Guardian Consent</h4>
-                <p class="text-xs text-neutral-500">Program authorization and training supervision permission.</p>
-            </a>
+    <div class="form-card">
+        <h2>Parent/Guardian Consent Form</h2>
+        <a class="form-button" target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfy65Y0v9QtUk2LqngsWA_21BQCtzH1KABcFqSye1t6F-7Ljw/viewform?usp=dialog">
+        Open Form
+        </a>
+    </div>
 
-            <!-- Step 3 Card: Liability -->
-            <a href="https://google.com" target="_blank" class="block bg-neutral-900 border border-neutral-800 p-5 rounded-xl hover:border-blue-500 transition group">
-                <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-1">Step 3 of 5</div>
-                <h4 class="font-bold text-white group-hover:text-blue-400 transition mb-2">Liability Waiver & Release</h4>
-                <p class="text-xs text-neutral-500">Physical activity safety acknowledgment and legal liability waiver.</p>
-            </a>
+    <div class="form-card">
+        <h2>Emergency Contact Form</h2>
+        <a class="form-button" target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSe2MiIevGNET55cRyDX6EsTfrooHCET1YXkfgJKXWWAsVBcPQ/viewform?usp=dialog">
+        Open Form
+        </a>
+    </div>
 
-            <!-- Step 4 Card: Media -->
-            <a href="https://google.com" target="_blank" class="block bg-neutral-900 border border-neutral-800 p-5 rounded-xl hover:border-blue-500 transition group">
-                <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-1">Step 4 of 5</div>
-                <h4 class="font-bold text-white group-hover:text-blue-400 transition mb-2">Photo & Media Release</h4>
-                <p class="text-xs text-neutral-500">Marketing permission settings for photography, video, and social media platforms.</p>
-            </a>
+    <div class="form-card">
+        <h2>Liability Waiver Form</h2>
+        <a class="form-button" target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdxzpNpc2Gkarzvl9mttUPdagl7yrCmyaZBNBJ10RF3bqMiGg/viewform?usp=dialog">
+        Open Form
+        </a>
+    </div>
 
-            <!-- Step 5 Card: Medical -->
-            <a href="https://google.com" target="_blank" class="block bg-neutral-900 border border-neutral-800 p-5 rounded-xl hover:border-blue-500 transition group">
-                <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-1">Step 5 of 5</div>
-                <h4 class="font-bold text-white group-hover:text-blue-400 transition mb-2">Emergency & Medical Info</h4>
-                <p class="text-xs text-neutral-500">Health insurance provider data, medical limitations, and care authorization.</p>
-            </a>
+    <div class="form-card">
+        <h2>Student Athlete Application Form</h2>
+        <a class="form-button" target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfR_z8tE64ocnGG7kBwE0Ha7G2R4GciDTW0x0ys65LxFG56mg/viewform?usp=dialog">
+        Open Form
+        </a>
+    </div>
 
-            <!-- Navigation Return Card -->
-            <a href="index.html" class="block bg-blue-900/20 border border-blue-900/50 p-5 rounded-xl hover:bg-blue-900/30 hover:border-blue-500 transition">
-                <div class="text-xs font-bold text-blue-400 uppercase tracking-wider mb-1">Finished?</div>
-                <h4 class="font-bold text-white mb-2">Return to Main Site →</h4>
-                <p class="text-xs text-blue-300/70">Head back to our main page to review workshops and connect with coaching.</p>
-            </a>
+    <div class="form-card">
+        <h2>Photo and Media Release Form</h2>
+        <a class="form-button" target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSccIgWS0QT5vQ4SSJEz_u-zvXpPGFxgblOyBayA-TJfSaVClQ/viewform?usp=dialog">
+        Open Form
+        </a>
+    </div>
 
-        </div>
-    </section>
-
-    <!-- Informational Footer -->
-    <footer class="py-12 px-6 border-t border-neutral-900 text-center text-sm text-neutral-500">
-        <p class="mb-2">Having trouble submitting your forms? Contact us directly at <a href="mailto:rossexp24@gmail.com" class="text-neutral-400 underline">rossexp24@gmail.com</a></p>
-        <p>&copy; 2026 The Ross Experience 24 LLC. All Rights Reserved.</p>
-    </footer>
+</div>
 
 </body>
 </html>
